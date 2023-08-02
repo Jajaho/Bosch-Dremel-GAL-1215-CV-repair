@@ -5,6 +5,10 @@ The pcb has the markings: PCB1857V1
 This repository contains KiCad schematics of the main side of its power supply.
 Component values have been measured and added.
 
+## Attention
+
+Pads lift very easily on this old pcb.
+
 ## Troubleshooting
 
 ### Evidence
@@ -29,3 +33,9 @@ Result:
 - V5 maybe damaged
 - V6 damaged
 - R6 measures 3.3k instead of 30 R (nominal)
+
+### 2. Attempt
+
+Replaced parts:
+- R30 (10k) with 11k (out of 10k)
+- V11 (IN4007)
