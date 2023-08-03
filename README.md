@@ -25,7 +25,7 @@ Replaced parts:
 - V5 with P7NK80Z
 - R10 with (see notes)
 - C2 with 33 uF 450 V electrolytic
-- R5 (?R) with 2W 0.15 R 
+- R5 (?R) with 2.5W 0.47R 
 
 Result:  
 - F1 blown
