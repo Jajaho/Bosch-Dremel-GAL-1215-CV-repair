@@ -336,6 +336,18 @@
     [
       "ab18b4c8-6f40-44db-bccd-b69c22b3ada9",
       ""
+    ],
+    [
+      "4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c",
+      "Mains side"
+    ],
+    [
+      "a48cdbeb-6ee2-4275-8de1-cf332eca272a",
+      "Secondary side"
+    ],
+    [
+      "5fd66d92-b6c6-4b69-8334-9a644953f52a",
+      "Battery"
     ]
   ],
   "text_variables": {}
