@@ -3,7 +3,7 @@
 Reverse engineering of a Dremel 12v battery charger.
 The pcb has the markings: PCB1857V1
 This repository contains KiCad schematics of the main side of its power supply.
-Component values have been measured and added.
+Some component values have been measured and added.
 
 ## Battery
 
@@ -20,4 +20,28 @@ Source: [BOSCH Upgrade Battery / Change Old Dead Li Ion Cell / GSR BAT411 - CMC 
 
 From what I could gather from some pictures online the internal connections look like this:
 
-![Battery schematic](battery/battery_schematic.jpg)
+![Battery schematic](battery/battery_schematic.jpg)  
+
+### Why is this a problem?  
+
+The connections to the individual battery cells are required for balance charging.
+Due to manufacturing variations the internal resistance $R_1$, $R_2$ of two cells can vary. When the battery is discharged a current $I$ is flowing through all cells equally due to Kirchhoff's current law. This causes the voltages of the individual cells to decrease according to  
+
+$$
+\begin{align*}
+    U_1 = R_1 \cdot I  \\
+    U_2 = R_2 \cdot I
+\end{align*}
+$$
+
+Resulting in a voltage difference of  
+
+$$
+\begin{align*}
+    \Delta U = U_1 - U_2 
+\end{align*}
+$$
+
+When the battery gets charged again this difference would get annihilated if the resistances were constant, but they are not. Over many discharge/charging cycles $ \Delta U$ can grow to be substantial difference which could cause the battery to fail because:  
+a) One cell get under discharged, or  
+b) the other cell gets overcharged.
