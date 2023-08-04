@@ -15,6 +15,9 @@ Even though the battery exposes two contacts for balance charging labeled C1 and
 
 The kicker however is that inside the Bosch GSR BAT411 the both C1 and C2 are not actually connected to the batteries, as you can clearly see in the picture below:
 
-![battery_teardown_cmc_diy_youtube](battery/battery_teardown_cmc_diy_youtube.jpg)
+![battery_teardown_cmc_diy_youtube](battery/battery_teardown_cmc_diy_youtube.jpg)  
 Source: [BOSCH Upgrade Battery / Change Old Dead Li Ion Cell / GSR BAT411 - CMC DIY (youtube)](https://www.youtube.com/watch?v=-DkphFzir5k)
 
+From what I could gather from some pictures online the internal connections look like this:
+
+![Battery schematic](battery/battery_schematic.jpg)
