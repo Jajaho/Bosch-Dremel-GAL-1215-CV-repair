@@ -42,6 +42,6 @@ $$
 \end{align*}
 $$
 
-When the battery gets charged again this difference would get annihilated if the resistances were constant, but they are not. Over many discharge/charging cycles $ \Delta U$ can grow to be substantial difference which could cause the battery to fail because:  
+When the battery gets charged again this difference would get annihilated if the resistances were constant, but they are not. Over many discharge/charging cycles$\Delta U$ can grow to be substantial difference which could cause the battery to fail because:  
 a) One cell get under discharged, or  
 b) the other cell gets overcharged.
