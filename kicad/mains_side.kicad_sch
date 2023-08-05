@@ -1459,7 +1459,6 @@
     )
   )
 
-
   (junction (at 148.59 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 048a7800-bd9f-49c4-9bdd-ee633044e7a0)
   )
@@ -2044,7 +2043,7 @@
           (reference "R14") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2073,7 +2072,7 @@
           (reference "R13") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R19") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2197,7 +2196,7 @@
           (reference "TR1_*L1") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "TR1_*L2") (unit 1)
+          (reference "TR1_*L1") (unit 1)
         )
       )
     )
@@ -2226,7 +2225,7 @@
           (reference "R9") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R13") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2255,7 +2254,7 @@
           (reference "C16") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "C5") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -2328,7 +2327,7 @@
           (reference "V11") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "V2") (unit 1)
+          (reference "V11") (unit 1)
         )
       )
     )
@@ -2360,7 +2359,7 @@
           (reference "R10") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2369,7 +2368,7 @@
   (symbol (lib_id "Diode:1N4007") (at 101.6 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c8299f0-7dab-40b9-bb42-8d89f7858794)
-    (property "Reference" "*D3" (at 104.14 112.395 90)
+    (property "Reference" "*D1" (at 104.14 112.395 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007" (at 104.14 114.935 90)
@@ -2392,7 +2391,7 @@
     (instances
       (project "Dremel_PCB1857_V1"
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "*D3") (unit 1)
+          (reference "*D1") (unit 1)
         )
       )
     )
@@ -2401,7 +2400,7 @@
   (symbol (lib_id "Diode:1N4007") (at 101.6 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fa3d026-6646-49ef-bf46-1c85976ef5eb)
-    (property "Reference" "*D1" (at 104.14 59.055 90)
+    (property "Reference" "*D2" (at 104.14 59.055 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007" (at 104.14 61.595 90)
@@ -2424,7 +2423,7 @@
     (instances
       (project "Dremel_PCB1857_V1"
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "*D1") (unit 1)
+          (reference "*D2") (unit 1)
         )
       )
     )
@@ -2488,7 +2487,7 @@
           (reference "R4") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R11") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2562,7 +2561,7 @@
   (symbol (lib_id "Diode:1N4007") (at 116.84 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e717d1a-5fa4-413b-87f9-83dacc586eed)
-    (property "Reference" "*D2" (at 119.38 59.055 90)
+    (property "Reference" "*D3" (at 119.38 59.055 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007" (at 119.38 61.595 90)
@@ -2585,7 +2584,7 @@
     (instances
       (project "Dremel_PCB1857_V1"
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "*D2") (unit 1)
+          (reference "*D3") (unit 1)
         )
       )
     )
@@ -2649,7 +2648,7 @@
           (reference "R8") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2777,7 +2776,7 @@
           (reference "C6") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2815,8 +2814,8 @@
   (symbol (lib_id "Device:D") (at 179.07 87.63 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ee534c7-8f07-40f2-8f93-114763cad69e)
-    (property "Reference" "*D6" (at 176.53 86.995 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Reference" "*D6" (at 181.61 88.265 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 176.53 89.535 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -2841,7 +2840,7 @@
           (reference "*D6") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "*D5") (unit 1)
+          (reference "*D6") (unit 1)
         )
       )
     )
@@ -2915,7 +2914,7 @@
           (reference "V5") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "V3") (unit 1)
+          (reference "V5") (unit 1)
         )
       )
     )
@@ -2944,7 +2943,7 @@
           (reference "C5") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3063,7 +3062,7 @@
           (reference "R12") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R14") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3092,7 +3091,7 @@
           (reference "TR1_*L2") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "TR1_*L1") (unit 1)
+          (reference "TR1_*L2") (unit 1)
         )
       )
     )
@@ -3121,7 +3120,7 @@
           (reference "C3") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3181,7 +3180,7 @@
           (reference "C7") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "C10") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3213,7 +3212,7 @@
           (reference "R15") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R5") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3245,7 +3244,7 @@
           (reference "R11") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "R4") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3254,7 +3253,7 @@
   (symbol (lib_id "Device:D") (at 219.71 38.1 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa3bc7bb-0350-44c9-8bff-7af12d4193f2)
-    (property "Reference" "*D5" (at 222.25 37.465 90)
+    (property "Reference" "*D5" (at 222.25 38.735 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 222.25 40.005 90)
@@ -3280,7 +3279,7 @@
           (reference "*D5") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c"
-          (reference "*D6") (unit 1)
+          (reference "*D5") (unit 1)
         )
       )
     )
