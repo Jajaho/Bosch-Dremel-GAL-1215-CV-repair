@@ -7,6 +7,8 @@ The pcb has the markings: PCB1857V1
 This repository contains KiCad schematics of the main side of its power supply.
 Some component values have been measured and added.
 
+See in the [kicad](https://github.com/Jajaho/Dremel-PCB1857V1/tree/master/kicad) directory for the schematic source file or get a printed pdf from the [actions](https://github.com/Jajaho/Dremel-PCB1857V1/actions) tab.
+
 ## Battery
 
 It is an open secret that Bosch and Dremel (Dremel being a division in the Robert Bosch Tool Corporation since 1993) batteries are compatible except for the bottom plastic shell with the retainment clips. If I had to take a wild guess I would say they are probably even manufactured in the same factory.
