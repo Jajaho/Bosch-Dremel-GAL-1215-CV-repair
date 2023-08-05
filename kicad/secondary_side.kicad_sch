@@ -2938,7 +2938,7 @@
           (reference "R12") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/a48cdbeb-6ee2-4275-8de1-cf332eca272a"
-          (reference "R12") (unit 1)
+          (reference "NOTR12") (unit 1)
         )
       )
     )
@@ -3717,7 +3717,7 @@
           (reference "R43") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/a48cdbeb-6ee2-4275-8de1-cf332eca272a"
-          (reference "R43") (unit 1)
+          (reference "NOTR43") (unit 1)
         )
       )
     )
