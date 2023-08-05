@@ -1,5 +1,7 @@
 # Dremel-PCB1857V1
 
+[![KiBot action](https://github.com/Jajaho/Dremel-PCB1857V1/actions/workflows/kibot_action.yml/badge.svg)](https://github.com/Jajaho/Dremel-PCB1857V1/actions/workflows/kibot_action.yml)
+
 Reverse engineering of a Dremel 12v battery charger.
 The pcb has the markings: PCB1857V1
 This repository contains KiCad schematics of the main side of its power supply.
