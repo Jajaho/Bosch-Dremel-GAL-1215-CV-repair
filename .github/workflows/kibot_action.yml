@@ -7,11 +7,13 @@ on:
     paths:
       - '**/*.kicad_sch'
       - '**/*.kicad_pcb'
+      - 'kicad/Dremel_PCB1857_V1.kibot.yaml'
       - '.github/workflows/kibot_action.yml'
   pull_request:
     paths:
       - '**/*.kicad_sch'
       - '**/*.kicad_pcb'
+      - 'kicad/Dremel_PCB1857_V1.kibot.yaml'
       - '.github/workflows/kibot_action.yml'
   repository_dispatch:
     types: [run_qs_gha]
