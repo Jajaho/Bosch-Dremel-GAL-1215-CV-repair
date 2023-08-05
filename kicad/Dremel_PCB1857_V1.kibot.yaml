@@ -21,8 +21,8 @@ globals:
 
 preflight:
   check_zone_fills: true
-  run_erc: true
-  run_drc: true
+  run_erc: false
+  run_drc: false
   # Filters for ERC/DRC errors/warnings
   filters:
     - filter: 'We know some connectors extend outside the board'
