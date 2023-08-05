@@ -5,13 +5,13 @@ name: "KiBot action"
 on:
   push:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
       - '.github/workflows/kibot_action.yml'
   pull_request:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
       - '.github/workflows/kibot_action.yml'
   repository_dispatch:
     types: [run_qs_gha]
