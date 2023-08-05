@@ -227,6 +227,7 @@
     )
   )
 
+
   (junction (at 160.02 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 40532c1f-da37-4cd8-8814-364b6f43f992)
   )
@@ -332,7 +333,7 @@
   )
 
   (symbol (lib_id "Device:Battery_Cell") (at 177.8 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 170aae85-45dd-4ecf-bc2f-4eb55322b00e)
     (property "Reference" "BT1" (at 181.61 65.913 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -358,15 +359,15 @@
   )
 
   (symbol (lib_id "Device:R") (at 160.02 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 3924c571-dae9-4f42-8738-0e69e5790488)
-    (property "Reference" "R2" (at 162.56 112.395 0)
+    (property "Reference" "RBat2" (at 162.56 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 162.56 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 158.242 113.03 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 158.242 113.03 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 113.03 0)
@@ -377,14 +378,14 @@
     (instances
       (project "Dremel_PCB1857_V1"
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/5fd66d92-b6c6-4b69-8334-9a644953f52a"
-          (reference "R2") (unit 1)
+          (reference "RBat2") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:Battery_Cell") (at 177.8 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 6382adec-cf64-4794-a723-f0d1d4353400)
     (property "Reference" "BT2" (at 181.61 88.773 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -410,7 +411,7 @@
   )
 
   (symbol (lib_id "Device:Battery_Cell") (at 177.8 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 9f97bae7-01b6-4eea-89ac-d1e398cdb7f1)
     (property "Reference" "BT3" (at 181.61 112.903 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -436,15 +437,15 @@
   )
 
   (symbol (lib_id "Device:R") (at 160.02 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid a87b436d-b09c-44d9-90c7-32cfc2dbd252)
-    (property "Reference" "R1" (at 162.56 66.675 0)
+    (property "Reference" "RBat1" (at 162.56 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 162.56 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 158.242 67.31 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 158.242 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 67.31 0)
@@ -455,14 +456,14 @@
     (instances
       (project "Dremel_PCB1857_V1"
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/5fd66d92-b6c6-4b69-8334-9a644953f52a"
-          (reference "R1") (unit 1)
+          (reference "RBat1") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:Thermistor_NTC") (at 133.35 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid c133ef39-8ebc-4ad9-82f2-d15050a6a80e)
     (property "Reference" "RT1" (at 135.89 112.7125 0)
       (effects (font (size 1.27 1.27)) (justify left))
