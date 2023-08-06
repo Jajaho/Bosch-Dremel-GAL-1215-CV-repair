@@ -46,4 +46,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Automatic_outputs
-        path: Generated
+        path: kicad/Generated

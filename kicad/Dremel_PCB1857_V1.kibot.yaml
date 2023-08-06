@@ -46,70 +46,70 @@ outputs:
     type: pdf_sch_print
     dir: Schematic 
 
-  - name: board_top
-    comment: "Top layer view"
-    type: pcbdraw
-    dir: PCB
-    options:
-      format: jpg
-      dpi: 300
+  # - name: board_top
+  #   comment: "Top layer view"
+  #   type: pcbdraw
+  #   dir: PCB
+  #   options:
+  #     format: jpg
+  #     dpi: 300
 
-  - name: board_top_filled
-    comment: "Top layer view with components"
-    type: pcbdraw
-    dir: PCB
-    output_id: '-filled'
-    options:
-      format: jpg
-      dpi: 300
-      show_components: all
+  # - name: board_top_filled
+  #   comment: "Top layer view with components"
+  #   type: pcbdraw
+  #   dir: PCB
+  #   output_id: '-filled'
+  #   options:
+  #     format: jpg
+  #     dpi: 300
+  #     show_components: all
 
-  - name: board_bottom
-    comment: "Bottom layer view"
-    type: pcbdraw
-    dir: PCB
-    options:
-      format: jpg
-      dpi: 300
-      bottom: true
+  # - name: board_bottom
+  #   comment: "Bottom layer view"
+  #   type: pcbdraw
+  #   dir: PCB
+  #   options:
+  #     format: jpg
+  #     dpi: 300
+  #     bottom: true
 
-  - name: board_bottom_filled
-    comment: "Bottom layer view with components"
-    type: pcbdraw
-    dir: PCB
-    output_id: '-filled'
-    options:
-      format: jpg
-      dpi: 300
-      bottom: true
-      show_components: all
+  # - name: board_bottom_filled
+  #   comment: "Bottom layer view with components"
+  #   type: pcbdraw
+  #   dir: PCB
+  #   output_id: '-filled'
+  #   options:
+  #     format: jpg
+  #     dpi: 300
+  #     bottom: true
+  #     show_components: all
       
-  - name: 3D
-    comment: "STEP 3D model"
-    type: step
-    dir: 3D
+  # - name: 3D
+  #   comment: "STEP 3D model"
+  #   type: step
+  #   dir: 3D
 
-  - name: 3D_top_view
-    comment: "3D render from top"
-    type: render_3d
-    dir: 3D
-    options:
-      zoom: 4
-      rotate_x: 3
-      rotate_z: 3
-      ray_tracing: true
+  # - name: 3D_top_view
+  #   comment: "3D render from top"
+  #   type: render_3d
+  #   dir: 3D
+  #   options:
+  #     zoom: 4
+  #     rotate_x: 3
+  #     rotate_z: 3
+  #     ray_tracing: true
 
-  - name: 3D_top_view_HQ
-    comment: "3D render from top (High Quality)"
-    type: blender_export
-    dir: 3D
-    options:
-      render_options:
-        transparent_background: true
-        samples: 20
-      point_of_view:
-        rotate_x: 30
-        rotate_z: -20
-      outputs:
-        - type: blender
-        - type: render
+  # - name: 3D_top_view_HQ
+  #   comment: "3D render from top (High Quality)"
+  #   type: blender_export
+  #   dir: 3D
+  #   options:
+  #     render_options:
+  #       transparent_background: true
+  #       samples: 20
+  #     point_of_view:
+  #       rotate_x: 30
+  #       rotate_z: -20
+  #     outputs:
+  #       - type: blender
+  #       - type: render
