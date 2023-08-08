@@ -3201,7 +3201,7 @@
           (reference "R12") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/a48cdbeb-6ee2-4275-8de1-cf332eca272a"
-          (reference "NOTR12") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3222,8 +3222,8 @@
     (property "Datasheet" "~" (at 27.94 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid 520f5c20-4f46-459d-bc62-169aa3f2df7b))
     (pin "5" (uuid ecdb6fa0-dc8e-4258-bd4a-4afaaef04cfc))
+    (pin "6" (uuid 520f5c20-4f46-459d-bc62-169aa3f2df7b))
     (instances
       (project "Dremel_PCB1857_V1"
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9"
@@ -4102,10 +4102,10 @@
   (symbol (lib_id "Device:R") (at 184.15 88.9 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5538b51-1980-4502-b50e-eac8c9774d19)
-    (property "Reference" "R43" (at 180.34 91.44 90)
+    (property "Reference" "R43" (at 182.88 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 184.15 86.36 90)
+    (property "Value" "R" (at 181.61 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 184.15 87.122 90)
@@ -4122,7 +4122,7 @@
           (reference "R43") (unit 1)
         )
         (path "/ab18b4c8-6f40-44db-bccd-b69c22b3ada9/a48cdbeb-6ee2-4275-8de1-cf332eca272a"
-          (reference "NOTR43") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
