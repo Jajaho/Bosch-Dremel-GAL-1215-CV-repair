@@ -53,3 +53,17 @@ R5 warms up extremely, confirmed by thermal camera.
 Probable cause: 
 - V5 overheated on previous attempt (print is discolored)
 - R5 is to small
+
+### 3. Attempt
+
+#### Replaced parts
+- V5 replaced with STP7NK80Z
+
+
+#### 1. Powerup
+   
+   230V ac at line input
+   results in no current draw
+    325VDC across C2
+   Vdd and Vcc measure 0V (measured across cap respectivley)
+   L3 and L4 both 5V ac across
