@@ -45,7 +45,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 4c8f6a8b-06f4-4e61-8fed-29a27b18ce1c)
-    (property "Sheetname" "Mains side" (at 68.58 69.1384 0)
+    (property "Sheetname" "Primary side" (at 68.58 69.1384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "mains_side.kicad_sch" (at 68.58 104.7246 0)

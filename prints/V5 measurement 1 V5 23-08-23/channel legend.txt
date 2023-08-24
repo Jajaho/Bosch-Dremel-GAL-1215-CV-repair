@@ -1,0 +1,3 @@
+CH2 - V1, Vce
+CH3 - V1, Vbe
+CH4 - V5, Vds
