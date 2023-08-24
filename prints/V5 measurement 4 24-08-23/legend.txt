@@ -1,0 +1,4 @@
+CH1 - Voltage at the cathode of *D6  
+CH2 - Voltage across R5  
+CH3 - V1 Vbe 
+CH4 - V5 Vgs 
