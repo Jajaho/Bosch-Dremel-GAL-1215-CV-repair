@@ -99,10 +99,20 @@ mit Harry
             - Secondary side electrolytics measure ~ 400 mV DC
             - Green led is lighting up
 
-Channel legend on prints:
-CH2 - V1, Vce
-CH3 - V1, Vbe
-CH4 - V5, Vds
+![](prints/V5%20measurement%201%20V5%2023-08-23/DS1Z_QuickPrint1.png)
+
+Channel legend on prints:  
+CH2 - V1, Vce  
+CH3 - V1, Vbe  
+CH4 - V5, Vds  
+
+![](prints/V5%20measurement%203%2023-08-23/DS1Z_QuickPrint2.png)
+
+legend:  
+CH1 - Voltage at the cathode of *D6  
+CH2 - V5 Vds  
+CH3 - V5 Vgs  
+CH4 - V1 Vbe 
 
 What killed the npn? - We will never know
 
