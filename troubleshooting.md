@@ -100,7 +100,9 @@ mit Harry
             - Green led is lighting up
 
 ![](prints/V5%20measurement%201%20V5%2023-08-23/DS1Z_QuickPrint1.png)
+(All measurements are with respect to gnd)
 
+The voltage across R19 (above optocoupler U1) was also measured during operation. 
 Channel legend on prints:  
 CH2 - V1, Vce  
 CH3 - V1, Vbe  
@@ -115,11 +117,24 @@ CH3 - V5 Vgs
 CH4 - V1 Vbe 
 
 What killed the npn? - We will never know
+The secondary side can't influence the primary side however because the op-amps are not powered.
+
+Measured: 
+CH1 - Voltage at the cathode of *D6 (because it defines the working point of V1)
+CH2 - V5 Vds
+CH3 - V5 Vgs
+CH4 - Voltage across *R5 
+
+Conclusions: 
+The working point of V1 should be about 4.583 V according to the voltage divider.
+But a measurement shows that Vbe of V1 never exceeds 1 V (ignoring oscillations)
+
+#### What killed the npn? - We will never know
 
 - Too much Ic? - Theoretically there could flow a maximum current of 0.5A through V1 because the voltage divider. But R11/R15 limit that so that at the maximum rated current of Ice of 200mA (continuous) there would need to bee a voltage drop of 200 kV across R11 and R15.
 - Vbe bigger then 6 V?
 
-Resonanzfrequenz
+Resonant frequency
 
 f = 1/(2*pi*sqrt(L*C))
 
