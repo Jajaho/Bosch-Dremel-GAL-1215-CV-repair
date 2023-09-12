@@ -2483,7 +2483,7 @@
     (property "Reference" "R5" (at 226.06 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (at 226.06 142.875 0)
+    (property "Value" "3.3R" (at 226.06 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 221.742 140.97 90)
