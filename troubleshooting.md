@@ -170,4 +170,14 @@ with L = 9.31 uH / C = 10 nF gives f = 5216 kHz which is close to the measured 4
 
    - Theory: The supply voltage is kept low to safe power while the battery charger is idling. Once a battery is detected by the micro controller it increases the secondary side voltage to match the desired charging current (cc charging phase) or if the voltage is already big enough cv. This is achieved via the optocoupler U1. By increasing the photo-transistors c/e-resistance the Vbe of V1 is decreased which again increases Vgs of V5, letting current flow for a longer portion of a period.
 
+### 14.09.23
+
+Bosch pcb tested:
+- Idle 
+   - mains current ~ 0 mA
+   - V_C2 = 320 VDC
+   - VDD zu GND1 (across the larger secondary side cap) = 1.550 VDC
+   - VCC to GND2 (across the 220 uF cap) = 13.07V
+   - AKKU+ to AKKU- V = 1.5 VDC
+
    

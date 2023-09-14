@@ -1,0 +1,5 @@
+CH1 - V5 Vg
+CH2 - L1_4
+CH3 - V1 Vb
+
+GND - Node between R5 and R14
