@@ -320,7 +320,7 @@
   )
 
   (text_box "This schematic has been derived by measuring the resistance and voltages bewteen battery terminals.\nTwo batteries have been examined.\n\nSerial number: LM24 - 703173255\nDate code: 03/2017\n\nSerial number: LM24 - 703173252\nDate code: 03/2017"
-    (at 100.33 152.4 0) (size 53.34 30.48)
+    (at 24.13 24.13 0) (size 53.34 30.48)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))

@@ -318,7 +318,7 @@
   )
 
   (text_box "This schematic has been derived by measuring the resistance and voltages bewteen battery terminals.\nOne battery has been examined.\n\nSerial number: TM22 - 801173318\nDate code: 01/2018\n\n"
-    (at 109.22 154.94 0) (size 53.34 30.48)
+    (at 21.59 21.59 0) (size 53.34 30.48)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
