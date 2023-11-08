@@ -180,4 +180,10 @@ Bosch pcb tested:
    - VCC to GND2 (across the 220 uF cap) = 13.07V
    - AKKU+ to AKKU- V = 1.5 VDC
 
+### 08.11.23
+
+- Replaced V1, V5, R5, R6, C2, R1
+- Plugged in mains voltage -> green led light up, 13V on Vcc
+- Plugged in battery -> didn't explode, green led started flashing
+
    
