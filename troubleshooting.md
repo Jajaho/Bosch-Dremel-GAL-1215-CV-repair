@@ -186,4 +186,8 @@ Bosch pcb tested:
 - Plugged in mains voltage -> green led light up, 13V on Vcc
 - Plugged in battery -> didn't explode, green led started flashing
 
+- Battery finished charging, removed battery -> magic smoke started escaping
+
+- I'm done with this and moving on with my life.
+
    
